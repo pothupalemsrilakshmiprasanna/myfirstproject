@@ -28,6 +28,7 @@ const userdetails=()=>{
     <section className="formsection">
         <div className='inputdiv'>
             <input type="text" placeholder="enter your name"onChange={getuserName} /><br/>
+            <p>hello</p>
 
 
             <h2>{newdetails}</h2>
