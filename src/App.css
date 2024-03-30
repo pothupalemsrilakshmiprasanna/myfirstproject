@@ -1,4 +1,4 @@
-.container{
+/*.container{
     background-color:grey;
 border:10px solid black;
 color:navy;
@@ -11,4 +11,25 @@ color:navy;
 .img{
     width: 400px;
     height: 600px;
+}*/
+.formsection {
+background-color: black;
+display: flex;
+justify-content: center;
+align-items: center;
+height: 50vh;
+flex-direction: column;
+}
+.inputdiv{
+    height: 2rem;
+    width: 15rem;
+}
+.submit{
+    padding:5px 10px;
+    border-radius: 5px;
+    margin-top: 5px;
+    background-color: blue;
+}
+.formsection h2 {
+color: white;
 }

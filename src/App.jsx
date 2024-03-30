@@ -1,6 +1,7 @@
 import React from 'react'
 import './App.css'
-import ClickEvent from './ClickEvent'
+import Formexample from './formexample'
+//import Resize from './chat'
 //import Firstcomponent from './props container/Firstcomponent'
 //import Secondcomponent from './props container/Secondcomponent'
 //import Thirdcomponent from './props container/Thirdcomponent'
@@ -40,13 +41,27 @@ import ClickEvent from './ClickEvent'
 export default <App>*/
  
  
+ /*const App = () => {
+   return (
+     <div className='container'>
+       <h1>
+        welcome to react
+      
+        <Resize />
+
+        
+       </h1>
+     </div>
+   )
+ }
+ 
+ export default App*/
+ 
+ 
  const App = () => {
    return (
      <div>
-       <h1>
-        welcome to react
-        <ClickEvent/>
-       </h1>
+       <Formexample/>
      </div>
    )
  }
