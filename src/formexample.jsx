@@ -9,7 +9,10 @@ const getuserName=(apple)=>{
 
 setuserName(apple.target.value)
 }
-const userdetails=()=>{
+const userdetails=(e)=>{
+  e.preventDefault()
+
+  
     setnewdetails(userName)
 }
 
@@ -27,12 +30,14 @@ const userdetails=()=>{
   return (
     <section className="formsection">
         <div className='inputdiv'>
+          <form onSubmit={userdetails}>
             <input type="text" placeholder="enter your name"onChange={getuserName} /><br/>
-            <p>hello</p>
+            
 
 
             <h2>{newdetails}</h2>
-            <button className="submit" onClick={userdetails}>submit</button>
+            <button className="submit" type="submit">submit</button>
+            </form>
         </div>
     </section>
   )
